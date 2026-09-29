@@ -9,11 +9,11 @@ k.loadRoot("./");
 k.setBackground(k.Color.fromHex("#E0FFFF"));
 
 k.loadSprite("yarn", "sprites/yarn.png");
-k.loadSprite("scissors", "scissors.png");
-k.loadSprite("hook", "hook.png");
-k.loadSprite("halfsweat", "halfsweat.png");
-k.loadSprite("fullsweat", "fullsweat.png");
-k.loadSprite("basket", "basket.png");
+k.loadSprite("scissors", "sprites/scissors.png");
+k.loadSprite("hook", "sprites/hook.png");
+k.loadSprite("halfsweat", "sprites/halfsweat.png");
+k.loadSprite("fullsweat", "sprites/fullsweat.png");
+k.loadSprite("basket", "sprites/basket.png");
 k.loadFont("playfair", "sprites/PlayfairDisplay-VariableFont_wght.ttf");
 
 const player = k.add([
